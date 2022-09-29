@@ -25,9 +25,12 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - userName: hfr1107
-            repoName: HomeBox
+          - userName: 8Marco8
+            repoName: TVBoxOSC
             branchName: main
+//          - userName: hfr1107
+//            repoName: HomeBox
+//           branchName: main
     steps:
       - name: Checkout
         uses: actions/checkout@v3
