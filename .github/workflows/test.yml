@@ -25,9 +25,6 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - userName: FongMi
-            repoName: TV
-            branchName: main
           - userName: hfr1107
             repoName: HomeBox
             branchName: main
