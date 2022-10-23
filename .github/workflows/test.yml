@@ -25,8 +25,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - userName: mayishidai
-            repoName: TVBoxOS
+          - userName: hfr1107
+            repoName: HomeBox
             branchName: main
     steps:
       - name: Checkout
