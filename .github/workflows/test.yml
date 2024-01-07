@@ -26,7 +26,7 @@ jobs:
       matrix:
         include:
           - userName: hfr1107
-            repoName: HomeBox
+            repoName: Box
             branchName: main
     steps:
       - name: Checkout
